@@ -1,7 +1,83 @@
-body {
-    background-color: beige;
+* {
+    box-sizing: border-box;
 }
 
-.h3 {
-    color: red;
+body {
+    background-color: #c1a28b;
+    margin: 0px;
 }
+
+.main-header {
+    background-color: beige;
+    padding: 20px;
+}
+
+.main-header-logo {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.main-header-namelogo {
+    width: 200px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.burger-button {
+    background-color: #4a3832;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-header-nav-bar {
+    display: none;
+}
+
+.main-header-nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-nav-bar a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+ @media (min-width: 768px) {
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-around;   
+    }
+    .burger-button {
+        display: none;
+    }
+    .main-header-logo {
+        display: block;
+    }
+    .main-header-nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-header-nav-bar ul {
+        display: flex;
+    }
+    .main-header-nav-bar li {
+        margin: 5px;
+    }
+    .main-header-namelogo {
+        margin: 0;
+    }
+ }
