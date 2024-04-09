@@ -8,8 +8,8 @@
            HEX #68303a
            RGB 104, 48, 58
 -Marrón trufa
-            HEX#4a3832
+            HEX #4a3832
             RGB 74,56,50
 -Caramelo suave
-            HEX#c1a28b
+            HEX #c1a28b
             RGB 193,162,139
